@@ -18,6 +18,7 @@ class RecipesController < ApplicationController
       redirect_to recipe_path(@recipe)
     else
       render :new
+    end
   end
 
   private
@@ -31,4 +32,3 @@ class RecipesController < ApplicationController
   end
 
 end
-
