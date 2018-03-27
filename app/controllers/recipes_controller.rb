@@ -13,8 +13,6 @@ class RecipesController < ApplicationController
     # @recipe.ingredients.build(name: "")
     #solution
     2.times { @recipe.ingredients.build }
-
-
   end
 
   def create
